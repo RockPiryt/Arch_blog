@@ -1,27 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/styles.css">
-</head>
-<body>
-<div class="wrapper">
-    <div class="top">
-        <div class="title"><h1>My Blog</h1></div>
-           </div>
-        <div class="content">
-            <div class="card">
-                <h2>{{ post_html["title"] }}</h2>
-                <h3>{{ post_html["subtitle"] }}</h3>
-                <p>{{ post_html["body"]}}</p>
+{% include "header.html" %}
+    
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url({{single_post_html.photo_bg }})">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>{{ single_post_html.title }}</h1>
+                            <h2 class="subheading">{{ single_post_html.subtitle }}</h2>
+                            <span class="meta">
+                                Source
+                                <a href="{{ single_post_html.source}}">{{ single_post_html.website}}</a>
+                                <p class="post-meta">Date {{ single_post_html.date }}</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
 
-    </div>
-</div>
-</body>
-<footer>
-    <p>Made with ♥️ in London.</p>
-</footer>
-</html>
+                        
+                        <h2 class="section-heading">{{ single_post_html.subtitle }}</h2>
+                        <p>{{ single_post_html.body }}</p>
+                        
+                        <blockquote class="blockquote">{{ single_post_html.blockquote }}</blockquote>
+                        
+                        
+                        <a href="#!"><img class="img-fluid" src="{{single_post_html.photo }}" alt="Burj Khalifa" /></a>
+                        
+                        <p>
+                            Images from: 
+                            <a href="https://www.unsplash.com/">Unsplash</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    
+{% include "footer.html" %}

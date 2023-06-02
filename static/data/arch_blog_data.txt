@@ -1,0 +1,39 @@
+https://api.npoint.io/6c4f0f978204ff0ae340
+
+[
+  {
+    "id": 1,
+    "title": "What is the Tallest Building in the World?",
+    "subtitle": "Burj Khalifa",
+    "body": "At an incredible height of 2,717 feet, Burj Khalifa in Dubai, the United Arab Emirates, is without a doubt the tallest recorded building in the world. Amazingly, it is twice the height of the Empire State Building, once the tallest building in the world in 1930, less than 100 years ago. The colossal tower has 163 floors, along with restaurants, apartments, business suites and the tallest elevator shaft in the world, for those brave enough to ride to the top. The building was designed by the Chicago based architectural firm Skidmore, Owings and Merrill (SOM). ",
+    "blockquote": "The tower accomplished a world record for the highest installation of an aluminium and glass façade with a height of 512 metres. The total weight of aluminium used on Burj Khalifa is equivalent to that of five A380 aircrafts and the total length of stainless steel bull nose fins is 293 times the height of Eiffel Tower in Paris.",
+    "source": "https://www.thecollector.com/what-are-the-5-tallest-buildings-in-the-world/",
+    "website": "www.thecollector.com",
+    "date": "05/19/2023",
+    "photo_bg": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80.jpg",
+    "photo":"https://images.unsplash.com/photo-1582120031356-35f21bf61055?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+  },
+  {
+    "id": 2,
+    "title": "Golden Gate Bridge",
+    "subtitle": "The bridge opened to vehicular traffic on May 28, 1937.",
+    "body": "Golden Gate Bridge, suspension bridge spanning the Golden Gate in California to link San Francisco with Marin county to the north. Upon its completion in 1937, it was the tallest and longest suspension bridge in the world. The Golden Gate Bridge came to be recognized as a symbol of the power and progress of the United States, and it set a precedent for suspension-bridge design around the world. Although other bridges have since surpassed it in size, it remains incomparable in the magnificence of its setting and is said to be the most photographed bridge in the world. It carries both U.S. Route 101 and California State Route 1 (Pacific Coast Highway) across the strait and features a pedestrian walkway.",
+    "source": "https://www.britannica.com/topic/Golden-Gate-Bridge",
+    "website": "www.britannica.com",
+    "date": "19/05/2023",
+    "photo_bg": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80",
+    "photo":"https://images.unsplash.com/photo-1603389865219-669a0768193e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+  },
+  {
+    "id": 3,
+    "title": "Frank Lloyd Wright’s great projects",
+    "subtitle": "Frederick C. Robie House project",
+    "body": "Located in Chicago’s ritzy Hyde Park neighborhood, the Robie House is considered to be the definitive prairie-style home and is indisputably the most recognizable. With a cantilevered roof and exaggerated overhanging eaves, the building is a brick and concrete ode to the utterly flat beauty of the open plains. The interiors of the Robie House use a delightfully airy open floor plan—a revolutionary choice at a time when contemporary house design favored a maze of walls and rooms. It was completed in 1910 for businessman Frederick C. Robie, although he sadly lived in the house for just 14 months before he was forced to sell it due to financial trouble. The building was nearly demolished twice (in 1941 and 1957), but Wright campaigned to save it—the only times he ever intervened to rescue a building he designed. ",
+    "blockquote": "The unique abode eventually got the recognition it deserved and, in 1991, was recognized by the American Institute of Architects as one of the most important structures created during the 20th century.",
+    "source": "https://www.afar.com/magazine/10-frank-lloyd-wright-houses-you-can-visit",
+    "website": "www.afar.com",
+    "date": "16/03/2022",
+    "photo_bg": "https://images.unsplash.com/photo-1549274092-92fdb3eaa854?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "photo":"https://images.unsplash.com/photo-1565165501952-cabbff682c19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+  }
+]
