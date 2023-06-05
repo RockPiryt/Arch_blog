@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from post import Post
 
 #Create Flask app
@@ -21,10 +21,32 @@ def single_post(post_id):
 def about():
     return render_template("about.html")
 
+
+# #######################1 page for GET / POST method#############################################
+# @app.route('/contact', methods=["GET","POST"])
+# def get_user_data():
+#     if request.method == "GET":
+#         return render_template("contact.html")
+#     else:
+#         form_name = request.form["name"]
+#         form_email = request.form["email"]
+#         form_phone = request.form["phone"]
+#         form_message = request.form["message"]
+#         return render_template("success_send_form.html", name_html=form_name, email_html=form_email, phone_html=form_phone, message_html=form_message)
+
+
+#######################2 pages for GET / POST method#############################################
 @app.route('/contact')
-def contact():
+def contact_form():
     return render_template("contact.html")
 
+@app.route('/send-form-info', methods=["POST"])
+def send_form_success():
+    form_name = request.form["name"]
+    form_email = request.form["email"]
+    form_phone = request.form["phone"]
+    form_message = request.form["message"]
+    return render_template("success_send_form.html", name_html=form_name, email_html=form_email, phone_html=form_phone, message_html=form_message)
 
 #Run app
 if __name__ == "__main__":

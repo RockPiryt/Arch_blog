@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Success submit</h1>
+                            <span class="subheading">Your data were successful submit.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h3>We receive these information:</h3><br>
+                        <h4>Name: </h4><p>{{ name_html }}</p><br>
+                        <h4>Email: </h4><p>{{ email_html }}</p><br>
+                        <h4>Phone: </h4><p>{{ phone_html }}</p><br>
+                        <h4>Message: </h4><p>{{ message_html }}</p><br>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+{% include "footer.html" %}
