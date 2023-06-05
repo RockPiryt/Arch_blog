@@ -171,3 +171,4 @@ cython_debug/
 
 #My file
 blog_data.py
+success_send_form.html
